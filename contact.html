@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Tasty Bites</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo">Tasty Bites</div>
+            <div class="menu-toggle">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <!-- Hero Section -->
+    <div class="contact-hero">
+        <div class="overlay">
+            <h1>Contact Us</h1>
+            <p>We’d love to hear from you!</p>
+        </div>
+    </div>
+
+    <!-- Contact Container -->
+    <div class="contact-container">
+
+        <!-- Get in Touch Section -->
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p><b>Address:</b> 123 Food Street, Taste City, FL 56789</p>
+            <p><b>Phone:</b> +1 234 567 890</p>
+            <p><b>Email:</b> support@tastybites.com</p>
+            <p>Feel free to contact us for inquiries, orders, or feedback.</p>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Send a Message</h2>
+            <form action="submit_form.php" method="POST">
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 Tasty Bites. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
